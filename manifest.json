@@ -1,0 +1,28 @@
+{
+  "name": "Libre — Personal PDF Library",
+  "short_name": "Libre",
+  "description": "Your own private library for PDFs. Everything stays on this device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0b0b0d",
+  "categories": ["books", "productivity", "education"],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": { "application/pdf": [".pdf"] }
+    }
+  ],
+  "launch_handler": { "client_mode": "focus-existing" },
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIgMTkyIj48cmVjdCB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgcng9IjM4IiBmaWxsPSIjZmY5ZjBhIi8+PHBhdGggZD0iTTU2IDUyaDgwdjhoLTgwem0wIDI0aDgwdjhoLTgwem0wIDI0aDU2djhoLTU2eiIgZmlsbD0iIzFhMTIwNiIvPjxyZWN0IHg9IjQ0IiB5PSI0MCIgd2lkdGg9IjQiIGhlaWdodD0iMTE2IiBmaWxsPSIjMWEyMDYiLz48L3N2Zz4=",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
